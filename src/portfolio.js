@@ -108,8 +108,8 @@ const educationInfo = {
       schoolName: "Gateway College",
       logo: require("./assets/images/gatewayLogo.png"),
       subHeader: "High School Eductation",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2012 - June 2019",
+      desc: "Sat for Edexcel IAL",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -185,57 +185,46 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Waves",
+      projectDesc: "Modern Responsive Animated Form Template",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Code",
+          url: "https://github.com/Pinto-PINTO/Responsive-Collaspsible-Form-Template"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "MusicLK",
+      projectDesc: "Music Library CRUD built using Java",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Code",
+          url: "https://github.com/Pinto-PINTO/JAVA-Library-Management"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Learners",
+      projectDesc: "Responsive Driving School Website Template",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Code",
+          url: "https://github.com/Pinto-PINTO/Driving-School-Website"
         }
       ]
     }
@@ -298,7 +287,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -360,9 +349,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi?",
+  number: "+94-0757952033",
+  email_address: "menukapinto5555@gmail.com"
 };
 
 // Twitter Section
