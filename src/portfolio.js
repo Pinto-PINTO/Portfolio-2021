@@ -109,19 +109,22 @@ const educationInfo = {
       logo: require("./assets/images/gatewayLogo.png"),
       subHeader: "High School Eductation",
       duration: "September 2012 - June 2019",
-      desc: "Sat for Edexcel IAL",
+      desc: "Edexcel IAL - Mathematics Stream",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Core Mathematics - A*",
+        "Further Mathematics - A",
+        "Physics - C"
       ]
     },
     {
       schoolName: "Curtin University",
       logo: require("./assets/images/curtinLogo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
-      duration: "September 2013 - April 2017",
+      duration: "February 2020 - February 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "Currently in Softmore Year and progressing with a GPA of 3.0"
+      ]
     }
   ]
 };
@@ -195,7 +198,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/Waves.png"),
       projectName: "Waves",
       projectDesc: "Modern Responsive Animated Form Template",
       footerLink: [
@@ -207,8 +210,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "MusicLK",
+      image: require("./assets/images/music.png"),
+      projectName: "Musik",
       projectDesc: "Music Library CRUD built using Java",
       footerLink: [
         {
@@ -218,8 +221,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Learners",
+      image: require("./assets/images/cleverDriver.png"),
+      projectName: "Clever Driver Learners ",
       projectDesc: "Responsive Driving School Website Template",
       footerLink: [
         {
