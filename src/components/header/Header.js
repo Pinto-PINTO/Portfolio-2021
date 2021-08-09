@@ -7,6 +7,8 @@ import {
   greeting,
   workExperiences,
   skillsSection,
+  educationInfo,
+  bigProjects,
   openSource,
   blogSection,
   talkSection,
@@ -15,9 +17,11 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
+  const viewExperience = workExperiences.display;  
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
+  const viewEducation = educationInfo.display;
+  const viewProjects = bigProjects.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
@@ -41,7 +45,22 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
+              <a href="#greeting">About Me</a>
+            </li>
+          )}
+          {viewSkills && (
+            <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewExperience && (
