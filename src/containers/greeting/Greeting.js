@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+import landingPerson from "../../assets/lottie/hello.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -63,3 +63,8 @@ export default function Greeting() {
     </Fade>
   );
 }
+
+// Links for Lottie
+// https://lottiefiles.com/56066-online-shopping
+// https://lottiefiles.com/58159-social-media-marketing
+// https://lottiefiles.com/55478-hello-bubble
