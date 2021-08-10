@@ -14,10 +14,10 @@ const greeting = {
   username: "Menuka Pinto",
   title: "Hi folks, I'm Menuka",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience in building Web and Mobile applications, who is looking for Internships and Collaborations."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,13 +38,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Examine Project Requirements and provide Digital Solutions"),
+    emoji("⚡ Develop highly interactive UI/UX designs for your Web Applications"),
+    emoji("⚡ Integration of third party services such as Firebase"),
+    emoji("⚡ Bug Testing and Maintenance"),
+    emoji("⚡ Cross-platform Optimization")
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -107,9 +106,9 @@ const educationInfo = {
     {
       schoolName: "Gateway College",
       logo: require("./assets/images/gatewayLogo.png"),
-      subHeader: "High School Eductation",
+      subHeader: "Secondary Eductation",
       duration: "September 2012 - June 2019",
-      desc: "Edexcel IAL - Mathematics Stream",
+      desc: "Pearson Edexcel IAL - Mathematics Stream",
       descBullets: [
         "Core Mathematics - A*",
         "Further Mathematics - A",
@@ -121,7 +120,7 @@ const educationInfo = {
       logo: require("./assets/images/curtinLogo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "February 2020 - February 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Curtin University affiliated with Sri Lanka Institute of Information Technology (SLIIT)",
       descBullets: [
         "Currently in Softmore Year and progressing with a GPA of 3.0"
       ]
@@ -135,16 +134,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Front-end Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Back-end Development",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
+      Stack: "Version Control",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Database",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "DevOps",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
